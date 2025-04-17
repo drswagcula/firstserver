@@ -25,9 +25,6 @@ app.get('/api/hello', async (req, res) => {
   }
 });
 
-/* // Optional: Serve static files (like CSS, images) from a 'public' directory
-app.use(express.static(path.join(__dirname, 'public'))); */
-
 /* app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
